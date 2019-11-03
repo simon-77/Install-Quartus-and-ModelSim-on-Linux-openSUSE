@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ModelSim - Quartus 19.1
+Comment=ModelSim INTEL FPGA STARTER EDITION 10.5b
+Icon=/opt/intelFPGA_lite/19.1/modelsim_ase/tcl/bitmaps/modelsim3_de_dark.gif
+Exec=/opt/intelFPGA_lite/19.1/modelsim_ase/bin/vsim
+Terminal=true
+Path=/opt/intelFPGA_lite/19.1

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Quartus Prime 19.1 Lite Edition
+Comment=Quartus Prime 19.1
+Icon=/opt/intelFPGA_lite/19.1/quartus/adm/quartusii.png
+Exec=/opt/intelFPGA_lite/19.1/quartus/bin/quartus
+Terminal=false
+Path=/opt/intelFPGA_lite/19.1
