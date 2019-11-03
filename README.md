@@ -63,8 +63,8 @@ export LD_LIBRARY_PATH=/home/simon/etc/packages/fontconfig-2.12.4-32bit/lib/:$LD
 
 ## Desktop Icons
 If you want to have desktop icons to start Quartus and ModelSim you can download them and add them to your Desktop folder.
-[Quartus Prime 19.1 Lite Edition.desktop](https://github.com/simon-77/Install-Quartus-and-ModelSim-on-Linux-openSUSE/raw/master/Quartus Prime 19.1 Lite Edition.desktop)
-[ModelSim - Quartus 19.1.desktop](https://github.com/simon-77/Install-Quartus-and-ModelSim-on-Linux-openSUSE/raw/master/ModelSim - Quartus 19.1.desktop)
+[Quartus Prime 19.1 Lite Edition.desktop](https://github.com/simon-77/Install-Quartus-and-ModelSim-on-Linux-openSUSE/raw/master/Quartus%20Prime%2019.1%20Lite%20Edition.desktop)
+[ModelSim - Quartus 19.1.desktop](https://github.com/simon-77/Install-Quartus-and-ModelSim-on-Linux-openSUSE/raw/master/ModelSim%20-%20Quartus%2019.1.desktop)
 
 ## Environment Variables
 Some programms need certain environment variables that point to the binaries they can execute. The following environment variables worked for me.
