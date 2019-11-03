@@ -50,9 +50,9 @@ Add this library manually to Modelsim. Either download the source files and comp
 
 The instruction for compiling the binaries your own is located at the bottom of this page. Otherwise, follow these steps:
 
-1) Download `fontconfig-2.12.4-32bit`[link](fontconfig-2.12.4-32bit-compiled.tar.gz) and `freetype-2.4.7-32bit`[link](freetype-2.4.7-32bit-compiled.tar.gz)
-Copy them either to your home directory or create a new folder and copy them to: `/opt[...]/modelsim_ase/bin32`
-I have stored them under `/home/simon/etc/packages`
+1) Download [fontconfig-2.12.4-32bit](https://github.com/simon-77/Install-Quartus-and-ModelSim-on-Linux-openSUSE/raw/master/fontconfig-2.12.4-32bit-compiled.tar.gz) and [freetype-2.4.7-32bit`](https://github.com/simon-77/Install-Quartus-and-ModelSim-on-Linux-openSUSE/raw/master/freetype-2.4.7-32bit-compiled.tar.gz)
+    Copy them either to your home directory or create a new folder and copy them to: `/opt[...]/modelsim_ase/bin32`
+    I have stored them under `/home/simon/etc/packages`
 
 2) Add the new path to the variable `LD_LIBRARY_PATH` for ModelSim.
 Modify the file `/opt/intelFPGA_lite/19.1/modelsim_ase/vco` (with root rights) and add the following lines to the beginning of the file :
@@ -63,6 +63,8 @@ export LD_LIBRARY_PATH=/home/simon/etc/packages/fontconfig-2.12.4-32bit/lib/:$LD
 
 ## Desktop Icons
 If you want to have desktop icons to start Quartus and ModelSim you can download them and add them to your Desktop folder.
+[Quartus Prime 19.1 Lite Edition.desktop](https://github.com/simon-77/Install-Quartus-and-ModelSim-on-Linux-openSUSE/raw/master/Quartus Prime 19.1 Lite Edition.desktop)
+[ModelSim - Quartus 19.1.desktop](https://github.com/simon-77/Install-Quartus-and-ModelSim-on-Linux-openSUSE/raw/master/ModelSim - Quartus 19.1.desktop)
 
 ## Environment Variables
 Some programms need certain environment variables that point to the binaries they can execute. The following environment variables worked for me.
@@ -105,5 +107,5 @@ $ PKG_CONFIG_PATH=/home/simon/etc/packages/freetype-2.4.7-32bit/lib/pkgconfig:PK
 
 
 # Resources
-<https://wiki.archlinux.org/index.php/Altera_Design_Software>
-<https://twoerner.blogspot.com/2017/10/running-modelsim-altera-from-quartus.html>
+- <https://wiki.archlinux.org/index.php/Altera_Design_Software>
+- <https://twoerner.blogspot.com/2017/10/running-modelsim-altera-from-quartus.html>
