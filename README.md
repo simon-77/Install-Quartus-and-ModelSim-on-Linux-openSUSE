@@ -50,7 +50,7 @@ Add this library manually to Modelsim. Either download the source files and comp
 
 The instruction for compiling the binaries your own is located at the bottom of this page. Otherwise, follow these steps:
 
-1) Download [fontconfig-2.12.4-32bit](https://github.com/simon-77/Install-Quartus-and-ModelSim-on-Linux-openSUSE/raw/master/fontconfig-2.12.4-32bit-compiled.tar.gz) and [freetype-2.4.7-32bit`](https://github.com/simon-77/Install-Quartus-and-ModelSim-on-Linux-openSUSE/raw/master/freetype-2.4.7-32bit-compiled.tar.gz)
+1) Download [fontconfig-2.12.4-32bit](https://github.com/simon-77/Install-Quartus-and-ModelSim-on-Linux-openSUSE/raw/master/fontconfig-2.12.4-32bit-compiled.tar.gz) and [freetype-2.4.7-32bit](https://github.com/simon-77/Install-Quartus-and-ModelSim-on-Linux-openSUSE/raw/master/freetype-2.4.7-32bit-compiled.tar.gz)
     Copy them either to your home directory or create a new folder and copy them to: `/opt[...]/modelsim_ase/bin32`
     I have stored them under `/home/simon/etc/packages`
 
