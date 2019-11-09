@@ -121,14 +121,14 @@ export QSYS_ROOTDIR="$QUARTUS_PATH/sopc_builder/bin"
 Set the variable CFLAGS to `-m32` for compiling it to a 32-bit package. Additionally set the prefix to some directory in your home directory to install it there because you don't want to install it to your operating system.
 ### freetype-2.4.7
 ```
-$ CFLAGS=-m32 ./configure --prefix=/home/simon/etc/packages/freetype-2.4.7-32bit`
-$ make install`
+$ CFLAGS=-m32 ./configure --prefix=/home/simon/etc/packages/freetype-2.4.7-32bit
+$ make install
 ```
 Set the same variables as before and additionally add the path to the previousely compiled freetype package to the variable `PKG_CONFIG_PATH`
 ### fontconfig-2.12.4
 ```
-$ PKG_CONFIG_PATH=/home/simon/etc/packages/freetype-2.4.7-32bit/lib/pkgconfig:PKG_CONFIG_PATH CFLAGS=-m32 ./configure --prefix=/home/simon/etc/packages/fontconfig-2.12.4-32bit`
-`$ make install
+$ PKG_CONFIG_PATH=/home/simon/etc/packages/freetype-2.4.7-32bit/lib/pkgconfig:PKG_CONFIG_PATH CFLAGS=-m32 ./configure --prefix=/home/simon/etc/packages/fontconfig-2.12.4-32bit
+$ make install
 ```
 
 
