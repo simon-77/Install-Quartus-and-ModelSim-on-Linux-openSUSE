@@ -9,7 +9,7 @@ Download link: <http://fpgasoftware.intel.com/?edition=lite>
 Install Quartus Prime by executing the installer (execute with `sudo`).
 I choose the following installation path: `/opt/intelFPGA_lite/19.1/`
 
-There are some Issues you have to solve when using Quartus Prime and ModelSim under Linux. If you wan't to apply the changes of this tutorial then just download this repository and use the files from there.
+There are some Issues you have to solve when using Quartus Prime and ModelSim under Linux. If you want to apply the changes of this tutorial then just download this repository and use the files from there.
 
 # Issues with Quartus Prime
 Start Quartus by executing:
@@ -87,8 +87,8 @@ export LD_LIBRARY_PATH=/home/simon/etc/packages/fontconfig-2.12.4-32bit/lib/:$LD
 
 ## Desktop Icons
 If you want to have desktop icons to start Quartus and ModelSim you can copy the `.desktop` files provided by this repository to your Desktop folder.
-- 'Quartus Prime 19.1 Lite Edition.desktop'
-- 'ModelSim - Quartus 19.1.desktop'
+- `Quartus Prime 19.1 Lite Edition.desktop`
+- `ModelSim - Quartus 19.1.desktop`
 
 ## Environment Variables
 Some programms require certain environment variables that point to the path of the binaries. The following environment variables worked for me.
