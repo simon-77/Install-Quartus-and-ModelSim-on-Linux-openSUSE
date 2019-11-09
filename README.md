@@ -4,6 +4,7 @@ I have used the following versions for this tutorial:
 - Operating System: OpenSUSE Tumbleweed (Kernel: 5.3.7-1-default) (2019-11)
 
 
+
 ## Download and install Quartus Prime
 Download link: <http://fpgasoftware.intel.com/?edition=lite>
 
