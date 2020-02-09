@@ -117,6 +117,7 @@ export QSYS_ROOTDIR="$QUARTUS_PATH/sopc_builder/bin"
 2) Download the old Source Packages (freetype-2.4.7 & fontconfig-2.12.4)
 - <https://download.savannah.gnu.org/releases/freetype/>
 - <http://www.linuxfromscratch.org/blfs/view/8.1/general/fontconfig.html>
+
 You can also find the source packages in this repository. (`fontconfig-2.12.4-source.tar.bz2` and `freetype-2.4.7-source.tar.bz2`)
 
 3) Compile them with make
