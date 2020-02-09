@@ -77,7 +77,7 @@ Add this library manually to Modelsim. Either download the source files and comp
 
 The instruction for compiling the libraries your own is located at the bottom of this page. If you want to download the already compiled binaries then follow these steps:
 
-1) Extract the archives `fontconfig-2.12.4-32bit.tar.gz` and `freetype-2.4.7-32bit.tar.gz` provided by this repository.
+1) Extract the archives `fontconfig-2.12.4-32bit-compiled.tar.gz` and `freetype-2.4.7-32bit-compiled.tar.gz` provided by this repository.
 Copy them either to your home directory or to the folder `/opt[...]/modelsim_ase/bin32` (you have to create this folder) - *I have stored them under `/home/simon/etc/packages`*
 
 2) Add the new path to the variable `LD_LIBRARY_PATH` for ModelSim.
@@ -117,6 +117,7 @@ export QSYS_ROOTDIR="$QUARTUS_PATH/sopc_builder/bin"
 2) Download the old Source Packages (freetype-2.4.7 & fontconfig-2.12.4)
 - <https://download.savannah.gnu.org/releases/freetype/>
 - <http://www.linuxfromscratch.org/blfs/view/8.1/general/fontconfig.html>
+You can also find the source packages in this repository. (`fontconfig-2.12.4-source.tar.bz2` and `freetype-2.4.7-source.tar.bz2`)
 
 3) Compile them with make
 
